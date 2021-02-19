@@ -1,0 +1,261 @@
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+<meta name="theme-color" content="#333938">
+
+</html>
+
+<script language="javascript">
+
+    function loca(url){
+
+        window.location.href=encodeURI(url.replace(/%KBM%/,In.q.value));
+
+    }
+
+</script>
+
+<form action="https://cn.bing.com/search" name="In">
+
+    <div class="div1">
+
+    <input type="text"name='q'autocomplete="off"class="text"/>
+
+    <input type="submit" class="submit" value="bing">
+
+    </div>
+
+</form>
+
+<style type="text/css" media="all">
+
+    html{
+
+         background-color: #333938;
+
+         font-family: Sans-Serif;
+
+     }
+
+    td{
+
+        color: #64754F;
+
+        font-size:20px;
+
+        text-align: center;
+
+    }
+
+    th{
+
+        color: #788C5E;
+
+        font-size:14px;
+
+        text-align: center;
+
+    }
+
+        .div1{
+
+            
+
+            background-color: #4b5552;
+
+            height: 40px;
+
+            width: 80%;
+
+            margin-left: 10%;
+
+            
+
+            border-radius: 12px 12px 12px 12px; 
+
+            box-shadow: 2px 2px 0px #bbcac6;
+
+            position: fixed;
+
+            font-size: 20px;
+
+            margin-left: 8%;
+
+            bottom: 12%;
+
+        }
+
+        .text{
+
+            border: none;
+
+            outline:none;
+
+            height: 100%;
+
+            width: 74%;
+
+            border-radius: 12px 0px 0px 12px; 
+
+            padding-left: 5%;
+
+            background-color: #7f918c;
+
+            color: #ffffff;
+
+            //margin-left: -4%;
+
+        }
+
+        .submit{
+
+            border: none;
+
+            outline:none;
+
+            height: 100%;
+
+            width: 24%;
+
+            border-radius: 0px 12px 12px 0px;
+
+            background-color: #4b5552;
+
+            padding-right: 5%;
+
+            color: #ffffff;
+
+        }
+
+</style>
+
+<table align="center"cellspacing="20" cpllpedding="20">
+
+    <tr><th colspan="3">搜索引擎</th>    <tr>
+
+        <td onclick="loca('https://cn.bing.com/search?q=%KBM%')">Bing</td>
+
+        <td onclick="loca('https://www.google.com/search?q=%KBM%')">Google</td>
+
+        <td onclick="loca('https://www.sogou.com/web?ie=UTF-8&query=%KBM%')">Sogou</td>
+
+    <tr>
+
+        <td onclick="loca('https://www.baidu.com/s?word=%KBM%')">Baidu</td>
+
+    <tr><th colspan="3">视频</th>    <tr>
+
+        <td onclick="loca('https://search.bilibili.com/all?keyword=%KBM%')">BiliPC</td>
+
+        <td onclick="loca('https://m.bilibili.com/search?keyword=%KBM%')">BiliPE</td>
+
+        <td onclick="loca('https://so.youku.com/search_video/q_%KBM%?searchfrom=1')">youku</td>
+
+    <tr>
+
+        <td onclick="loca('https://m.iqiyi.com/search.html?source=suggest&key=%KBM%')">iqiyi</td>
+
+        <td onclick="loca('http://m.v.qq.com/search.html?keyWord=%KBM%')">qqVideo</td>
+
+    <tr><th colspan="3">音乐</th>    <tr>
+
+        <td onclick="loca('https://www.kugou.com/yy/html/search.html#searchType=song&searchKeyWord=%KBM%')">kugouPc</td>
+
+        <td onclick="loca('https://y.qq.com/portal/search.html#page=1&searchid=1&t=song&w=%KBM%')">qqMPc</td>
+
+        <td onclick="loca('https://music.163.com/#/search/m/?s=%KBM%&type=1')">163MPc</td>
+
+    <tr><th colspan="3">软件</th>    <tr>
+
+        <td onclick="loca('https://bbs.binmt.cc/search.php?mod=forum&searchid=1953&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=%KBM%')">Mtbbs</td>
+
+        <td onclick="loca('https://www.happymod.com/minecraft-pocket-edition-apk-mod/%KBM%/original.html')">hamod</td>
+
+        <td onclick="loca('http://www.yxssp.com/?s=%KBM%')">yxssp</td>
+
+    <tr>
+
+        <td onclick="loca('https://play.google.com/store/search?q=%KBM%&c=apps')">Gplay</td>
+
+        <td onclick="loca('https://apkcombo.com/zh-gb/apk-downloader/?device=phone&arches=armeabi-v7a&sdkInt=23&expanded=1&sa=1&lang=zh&dpi=480&q=%KBM%')">apkcombo</td>
+
+        <td onclick="loca('https://m.apkpure.com/search?q=%KBM%')">apkpure</td>
+
+    <tr><th colspan="3">资料</th>    <tr>
+
+        <td onclick="loca('https://wapbaike.baidu.com/search/none?word=%KBM%')">BdBaike</td>
+
+        <td onclick="loca('https://wk.baidu.com/search?fr=searchpage&word=%KBM%')">BdWenku</td>
+
+        <td onclick="loca('https://tieba.baidu.com/f/search/res?ie=utf-8&qw=%KBM%')">BdTieba</td>
+
+    <tr>
+
+        <td onclick="loca('https://www.zhihu.com/search?status=suggest&type=content&q=%KBM%')">Zhihu</td>
+
+</tr></table>
+
+<script>
+
+    var h = new Date().getHours();
+
+    isDay=false;
+
+    if(h>6){
+
+        if(h<18){
+
+            isDay=true;
+
+        }
+
+    }
+
+    if(isDay){
+
+        var v1=document. getElementsByTagName("html")[0].style.backgroundColor="#00ff7f";
+
+        
+
+        
+
+        var v2=document. getElementsByTagName("input")[0]
+
+        v2.style.backgroundColor="#1cd069";
+
+        v2.style.color="#fff";
+
+        
+
+        
+
+        v4=document. getElementsByTagName("meta")[1].setAttribute("content","#00ff7f");
+
+        var v5=document. getElementsByTagName("input")[1]
+
+        v5.style.backgroundColor="#227740";
+
+        var v6=document. getElementsByClassName("div1")[0]
+
+        v6.style.backgroundColor="#227740";
+
+        v6.style.boxShadow="2px 2px 0px #23a254";
+
+        
+
+        var v3=document. getElementsByTagName("td")
+
+        for(i1=0;i1<100;i1++){
+
+            //console.log(i1);
+
+        v3[i1].style.color="#355A0F";
+
+        }
+
+        
+
+    }
+
+</script>
